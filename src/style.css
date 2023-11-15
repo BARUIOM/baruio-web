@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply w-full h-full;
+    @apply select-none;
+    @apply bg-[#000];
+}
+
+body {
+    @apply w-full h-full;
+
+    > div#app {
+        @apply w-full h-full;
+    }
+}
